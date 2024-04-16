@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form </title>
+    <link rel="stylesheet" href="addstyle.css">
+    <style>
+        table tr td{
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>College Admission Form</h1>
+    </header>
+    <div>
+        <form autocomplete="on">
+        <fieldset>
+            <legend>Admission Form</legend>
+            <fieldset>
+                <legend class="color">Student's Information</legend>
+                <table>
+                    <tr>
+                       
+                        <td style="padding-right: 0px;">
+                            <label for="fname">First Name</label>
+                             <input type="text" id="fname" name="fname" value="" required  > <br> 
+                        </td>   
+                        <td>
+                            <label for="mname">Middle Name</label>
+                            <input type="text" id="mname" name="mname" value="" required  > <br>
+                         </td>  
+                        <td>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" value="" required > <br>
+                        </td>
+                    </tr>
+                </table>
+               <br>
+               <label for="dob">Date Of Birth :</label>
+               <input type="date" name="dob" id="dob">
+                &nbsp; &nbsp; &nbsp;
+                <label for="gender">Gender :</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="course">Choose Course :</label>
+                <select name="course" id="course">
+                    <option value="BE">BE</option>
+                    <option value="MCA">MCA</option>
+                </select>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend class="color">Documents Upload</legend>
+                <label for="markSheet">Graduation final year Marklist :</label>
+                <input type="file" id="markSheet" name="markSheet">
+                &nbsp; &nbsp; &nbsp;
+
+                <label for="aadhar">Aadhar Card :</label>
+                <input type="file" id="aadhar" name="aadhar">
+            </fieldset>
+
+            <fieldset>
+                <legend class="color">Contact Information</legend>
+                <label for="add">Mailing Address :</label>
+                <textarea name="address" id="add" cols="30" rows="3"></textarea>
+
+                <br>
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+                 
+                &nbsp; &nbsp; &nbsp;
+
+                <label for="mobile">Phone Number</label>
+                <input type="tel" id="mobile" name="mobile" size="10">
+            </fieldset>
+        </fieldset> 
+        <button type="submit">submit</button>   
+        <button type="submit" class="btn-1" id="reset">Reset</button>
+        </form>
+    </div><br>
+    <div class="main"> 
+        <marquee class="marq" bgcolor="white" 
+                 direction="left" loop=""> 
+            <div class="note"> 
+                "Note: Last date of Admission is 15th April."
+            </div> 
+        </marquee>
+</body>
+</html>

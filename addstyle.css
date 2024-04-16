@@ -1,0 +1,89 @@
+body{
+    background: #036a877b;
+}
+table tr td {
+  
+    padding: 12px 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header {
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  legend.color{
+    background-color: #036a877b;
+  }
+  
+  fieldset {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  
+  }
+  input[type="email"],
+  input[type="tel"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    width: 70%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #0d7911;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    font-size: 20px;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #036a877b;
+    color: #000;
+  }
+  .btn-1 {
+    background-color:#FBE408;
+    color: white;
+  }
+ 
